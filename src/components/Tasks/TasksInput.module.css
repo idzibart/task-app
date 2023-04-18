@@ -1,0 +1,48 @@
+.tasks-list {
+  max-width: 60rem;
+  width: 90%;
+  margin: 1rem auto;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin: 1px;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+input {
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  background-color: #fafffd;
+  width: 50%;
+  border: none;
+  border-bottom: 2px solid #9fd356;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #9fd356;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
